@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_video" translatable="false">Chọn video</string>
+    <string name="gallery">Thư viện</string>
+    <string name="settings">Cài đặt</string>
+    <string name="share">Chia sẻ</string>
+    <string name="rate_us">Đánh giá</string>
+    <string name="about_us">Giới thiệt</string>
+    <string name="slideshow_maker">Trình diễn</string>
+    <string name="author">Tác giả</string>
+    <string name="privacy_policy">Điều khoản bảo mật</string>
+</resources>
