@@ -1,0 +1,91 @@
+<resources xmlns:href="http://schemas.android.com/apk/res-auto">
+    <string name="app_name" translatable="false">Vishot</string>
+    <string name="select_video">Select Video</string>
+    <string name="gallery">Gallery</string>
+    <string name="slideshow_maker">Slideshow maker</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate us</string>
+    <string name="about_us">About us</string>
+    <string name="author">Author:</string>
+    <string name="link01" translatable="false"><a href="https://hdpsolutions.com/">HDP Solution </a></string>
+    <string name="privacy_policy">Privacy Policy:</string>
+    <string name="link02" translatable="false">http://hdpsolution.com/privacy_policy/CameraApps/PrivacyPolicyCameraApps.htm</string>
+    <string name="email" translatable="false">Email:</string>
+    <string name="email1" translatable="false">support@hdpsolutions.com</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="snap_kind">Which snap?</string>
+    <string name="time_title">Timesnap</string>
+    <string name="format_title">File Format</string>
+    <string name="default_format" translatable="false">PNG</string>
+    <string-array name="format_entry">
+        <item>JPG</item>
+        <item>PNG</item>
+    </string-array>
+    <string name="quality_title">Quality</string>
+    <string name="default_quality" translatable="false">High</string>
+    <string-array name="quality_entry">
+        <item>Best</item>
+        <item>Very high</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+    <string name="size_title">Size</string>
+    <string name="size_default" translatable="false">1x</string>
+    <string-array name="size_entry">
+        <item>0.5x</item>
+        <item>1x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+        <item>3x</item>
+    </string-array>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="crop">Crop</string>
+    <string name="text">Text</string>
+    <string name="emoji">Emoji</string>
+    <string name="paint">Paint</string>
+    <string name="color">Color</string>
+    <string name="eraser">Eraser</string>
+    <string name="strokesize">Stroke size</string>
+    <string name="save">Save</string>
+    <string name="location">Location:</string>
+    <string name="size">Size</string>
+    <string name="resolution">Resolution</string>
+    <string name="imageinfo">Image\'s information</string>
+    <string name="clear">Clear all</string>
+    <string name="create">Create</string>
+    <string name="time_to_snap">Snap every 1 second</string>
+    <string name="time_to_snap_1">Snap every</string>
+    <string name="time_to_snap_3">seconds</string>
+    <string name="warning_when_submit">Not valid</string>
+    <string name="second_dialog">Number submitted must be greater than zero and less than the video\'s length</string>
+    <string name="time_to_snap_2">Snap every 2 seconds</string>
+    <string name="done">Done</string>
+    <string name="stop">Stop</string>
+    <string name="share_app">Share our app</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="open">Open</string>
+    <string name="rename">Rename</string>
+    <string name="detail">Details</string>
+    <string name="areyousure">Are you sure ?</string>
+    <string name="options">Options</string>
+    <string name="filename">File name:</string>
+    <string name="date">Date:</string>
+    <string name="filesize">File size:</string>
+    <string name="path">Path:</string>
+    <string name="quicksnap">Quicksnap</string>
+    <string name="timesnap">Timesnap</string>
+</resources>

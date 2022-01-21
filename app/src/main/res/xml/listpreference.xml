@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="File Format"
+        android:defaultValue="@string/default_format"
+        android:entries="@array/format_entry"
+        android:entryValues="@array/format_entry"
+        android:summary="@string/default_format"
+        android:title="@string/format_title" />
+    <ListPreference
+        android:key="Quality"
+        android:defaultValue="@string/default_quality"
+        android:entries="@array/quality_entry"
+        android:entryValues="@array/quality_entry"
+        android:summary="@string/default_quality"
+        android:title="@string/quality_title" />
+    <ListPreference
+        android:key="Size"
+        android:defaultValue="@string/size_default"
+        android:entries="@array/size_entry"
+        android:entryValues="@array/size_entry"
+        android:summary="@string/size_default"
+        android:title="@string/size_title" />
+
+</PreferenceScreen>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_video" translatable="false">Chọn video</string>
+    <string name="gallery">Thư viện</string>
+    <string name="settings">Cài đặt</string>
+    <string name="share">Chia sẻ</string>
+    <string name="rate_us">Đánh giá</string>
+    <string name="about_us">Giới thiệu</string>
+    <string name="slideshow_maker">Trình diễn</string>
+    <string name="author">Tác giả</string>
+    <string name="privacy_policy">Điều khoản bảo mật</string>
+    <string name="snap_kind">Kiểu chụp</string>
+    <string name="time_title">Cắt theo thời gian</string>
+    <string name="format_title">Định dạng</string>
+    <string name="quality_title">Chất lượng</string>
+    <string name="size_title">Kích cỡ</string>
+    <string name="edit">Sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="crop">Cắt</string>
+    <string name="text">Thêm chữ</string>
+    <string name="emoji">Cảm xúc</string>
+    <string name="paint">Vẽ</string>
+    <string name="color">Màu</string>
+    <string name="eraser">Tẩy</string>
+    <string name="strokesize">Cỡ nét</string>
+    <string name="save">Lưu</string>
+    <string name="location">Địa chỉ:</string>
+    <string name="size">Kích cỡ:</string>
+    <string name="resolution">Độ phân giải:</string>
+    <string name="imageinfo">Thông tin ảnh:</string>
+    <string name="clear">Xóa hết</string>
+    <string name="create">Tạo video</string>
+    <string name="time_to_snap">Chụp mỗi 1 giây</string>
+    <string name="time_to_snap_1">"Chụp mỗi "</string>
+    <string name="time_to_snap_3">giây</string>
+    <string name="warning_when_submit">Không hợp lệ</string>
+    <string name="second_dialog">Số được nhập cần lớn hơn 0 và nhỏ hơn độ dài video</string>
+    <string name="time_to_snap_2">Chụp mỗi 2 giây</string>
+    <string name="done">Xong</string>
+    <string name="stop">Dừng</string>
+    <string name="share_app">Chia sẻ ứng dụng</string>
+    <string name="ok">Đồng ý</string>
+    <string name="cancel">Đóng</string>
+    <string name="open">Mở</string>
+    <string name="rename">Đổi tên</string>
+    <string name="detail">Chi tiết</string>
+    <string name="areyousure">Bạn có chắc muốn xóa tệp</string>
+    <string name="options">Tùy chọn</string>
+    <string name="filename">Tên file:</string>
+    <string name="date">Ngày:</string>
+    <string name="filesize">Kích cỡ:</string>
+    <string name="path">Đường dẫn:</string>
+    <string name="quicksnap">Chụp nhanh</string>
+    <string name="timesnap">Chụp hẹn giờ</string>
+</resources>

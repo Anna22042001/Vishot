@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_slideshow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Slideshow.SlideshowActivity"
+    tools:menu="@menu/bottom_delete">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_Folderimage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_image_tochoose"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_Folderimage" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rV_image_chosen"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_image_tochoose"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FB0840"
+        android:foregroundGravity="right"
+        android:gravity="right|end"
+        android:minHeight="?attr/actionBarSize"
+        android:textAlignment="viewEnd"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="invisible"
+        app:buttonGravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rV_image_chosen"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom_delete"
+        app:subtitleTextColor="#F10606"
+        app:titleTextColor="#F44336" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
