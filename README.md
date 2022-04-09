@@ -5,3 +5,4 @@
 - Save and share images
 - Add specific configurations of images
 - Slideshow images
+- Optimize memory usage by customizing pre-built libraries.
